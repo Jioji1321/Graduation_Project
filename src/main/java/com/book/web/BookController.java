@@ -31,7 +31,7 @@ public class BookController {
             return modelAndView;
         }
         else{
-            return new ModelAndView("admin_books","error","没有匹配的图书");
+            return new ModelAndView("admin_books","error","没有匹配的旅游项目");
         }
     }
     @RequestMapping("/reader_querybook.html")
@@ -48,7 +48,7 @@ public class BookController {
             return "redirect:/reader_querybook.html";
         }
         else{
-            redirectAttributes.addFlashAttribute("error", "没有匹配的图书！");
+            redirectAttributes.addFlashAttribute("error", "没有匹配的旅游项目！");
             return "redirect:/reader_querybook.html";
         }
 
@@ -67,7 +67,7 @@ public class BookController {
         int res=bookService.deleteBook(bookId);
 
         if (res==1){
-            redirectAttributes.addFlashAttribute("succ", "图书删除成功！");
+            redirectAttributes.addFlashAttribute("succ", "旅游项目删除成功！");
             return "redirect:/allbooks.html";
         }else {
             redirectAttributes.addFlashAttribute("error", "图书删除失败！");
@@ -85,7 +85,8 @@ public class BookController {
     @RequestMapping("/book_add_do.html")
     public String addBookDo(BookAddCommand bookAddCommand,RedirectAttributes redirectAttributes){
         Book book=new Book();
-        book.setBookId(0);
+        long id = (long) (Math.random() * 100000000);
+        book.setBookId(id);
         book.setPrice(bookAddCommand.getPrice());
         book.setState(bookAddCommand.getState());
         book.setPublish(bookAddCommand.getPublish());
@@ -102,7 +103,7 @@ public class BookController {
         boolean succ=bookService.addBook(book);
         ArrayList<Book> books=bookService.getAllBooks();
         if (succ){
-            redirectAttributes.addFlashAttribute("succ", "图书添加成功！");
+            redirectAttributes.addFlashAttribute("succ", "旅游项目添加成功！");
             return "redirect:/allbooks.html";
         }
         else {
@@ -140,11 +141,11 @@ public class BookController {
 
         boolean succ=bookService.editBook(book);
         if (succ){
-            redirectAttributes.addFlashAttribute("succ", "图书修改成功！");
+            redirectAttributes.addFlashAttribute("succ", "旅游项目修改成功！");
             return "redirect:/allbooks.html";
         }
         else {
-            redirectAttributes.addFlashAttribute("error", "图书修改失败！");
+            redirectAttributes.addFlashAttribute("error", "旅游项目修改失败！");
             return "redirect:/allbooks.html";
         }
     }

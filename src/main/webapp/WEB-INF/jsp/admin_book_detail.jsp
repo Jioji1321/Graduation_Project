@@ -116,20 +116,20 @@
                     <th>分类号</th>
                     <td>${detail.classId}</td>
                 </tr>
-                <tr>
-                    <th>分类</th>
-                    <td>${detail.pressmark}</td>
-                </tr>
-                <tr>
-                    <th>状态</th>
-                    <c:if test="${detail.state==1}">
-                        <td>在馆</td>
-                    </c:if>
-                    <c:if test="${detail.state==0}">
-                        <td>借出</td>
-                    </c:if>
+                <%--<tr>--%>
+                    <%--<th>分类</th>--%>
+                    <%--<td>${detail.pressmark}</td>--%>
+                <%--</tr>--%>
+                <%--<tr>--%>
+                    <%--<th>状态</th>--%>
+                    <%--<c:if test="${detail.state==1}">--%>
+                        <%--<td>在馆</td>--%>
+                    <%--</c:if>--%>
+                    <%--<c:if test="${detail.state==0}">--%>
+                        <%--<td>借出</td>--%>
+                    <%--</c:if>--%>
 
-                </tr>
+                <%--</tr>--%>
                 </tbody>
             </table>
         </div>
