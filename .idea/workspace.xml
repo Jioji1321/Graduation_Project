@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe212194-b028-4ef3-b798-5d9b76f43e13" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Users/zhouzhiliwen/Documents/softwares/maven/repository/com/book/book/1.0-SNAPSHOT/_remote.repositories" afterPath="$PROJECT_DIR$/Users/zhouzhiliwen/Documents/softwares/maven/repository/com/book/book/1.0-SNAPSHOT/_remote.repositories" />
-      <change beforePath="$PROJECT_DIR$/Users/zhouzhiliwen/Documents/softwares/maven/repository/com/book/book/1.0-SNAPSHOT/maven-metadata-local.xml" afterPath="$PROJECT_DIR$/Users/zhouzhiliwen/Documents/softwares/maven/repository/com/book/book/1.0-SNAPSHOT/maven-metadata-local.xml" />
-      <change beforePath="$PROJECT_DIR$/Users/zhouzhiliwen/Documents/softwares/maven/repository/com/book/book/maven-metadata-local.xml" afterPath="$PROJECT_DIR$/Users/zhouzhiliwen/Documents/softwares/maven/repository/com/book/book/maven-metadata-local.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/book/dao/BookDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/book/dao/BookDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/web/BookController.java" afterPath="$PROJECT_DIR$/src/main/java/com/book/web/BookController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_detail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_detail.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/book-1.0-SNAPSHOT/WEB-INF/classes/book-context.xml" afterPath="$PROJECT_DIR$/target/book-1.0-SNAPSHOT/WEB-INF/classes/book-context.xml" />
-      <change beforePath="$PROJECT_DIR$/target/book-1.0-SNAPSHOT/WEB-INF/jsp/admin_book_detail.jsp" afterPath="$PROJECT_DIR$/target/book-1.0-SNAPSHOT/WEB-INF/jsp/admin_book_detail.jsp" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +19,7 @@
       <file leaf-file-name="admin_book_detail.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_detail.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="1965">
               <caret line="131" column="25" lean-forward="false" selection-start-line="118" selection-start-column="20" selection-end-line="131" selection-end-column="25" />
               <folding />
             </state>
@@ -36,7 +29,7 @@
       <file leaf-file-name="reader_book_detail.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_book_detail.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="1590">
               <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding />
             </state>
@@ -53,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="24" column="80" lean-forward="false" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -66,8 +59,8 @@
       <file leaf-file-name="BookService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/book/service/BookService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="165">
+              <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="e#446#447#0" expanded="true" />
                 <element signature="e#499#500#0" expanded="true" />
@@ -76,19 +69,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookDao.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BookDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/book/dao/BookDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="360">
+              <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
               <folding>
-                <marker date="1525884484278" expanded="true" signature="659:716" ph="INSERT INTO book_info... " />
-                <marker date="1525884484278" expanded="true" signature="768:807" ph="delete from book_info... " />
-                <marker date="1525884484278" expanded="true" signature="859:1026" ph="update book_info... " />
-                <marker date="1525884484278" expanded="true" signature="1084:1107" ph="SELECT * FRO... book_info" />
-                <marker date="1525884484278" expanded="true" signature="1159:1213" ph="SELECT * FRO... book_info" />
-                <marker date="1525884484278" expanded="true" signature="1283:1350" ph="SELECT count... book_info" />
-                <marker date="1525884484278" expanded="true" signature="1416:1457" ph="SELECT * FRO... book_info" />
+                <element signature="e#1821#1827#0" expanded="true" />
+                <element signature="e#1900#3025#0" expanded="true" />
+                <element signature="e#3024#3025#0" expanded="true" />
+                <element signature="e#3151#3157#0" expanded="true" />
+                <element signature="e#3210#4334#0" expanded="true" />
+                <element signature="e#4333#4334#0" expanded="true" />
+                <element signature="e#5292#6186#0" expanded="true" />
+                <element signature="e#6185#6186#0" expanded="true" />
+                <marker date="1525886799916" expanded="true" signature="661:718" ph="INSERT INTO book_info... " />
+                <marker date="1525886799916" expanded="true" signature="772:811" ph="delete from book_info... " />
+                <marker date="1525886799916" expanded="true" signature="865:1032" ph="update book_info... " />
+                <marker date="1525886799916" expanded="true" signature="1092:1115" ph="SELECT * FRO... book_info" />
+                <marker date="1525886799916" expanded="true" signature="1169:1229" ph="SELECT * FRO... book_info" />
+                <marker date="1525886799916" expanded="true" signature="1301:1367" ph="SELECT count... book_info" />
+                <marker date="1525886799916" expanded="true" signature="1301:1368" ph="SELECT count... book_info" />
+                <marker date="1525886799916" expanded="true" signature="1436:1477" ph="SELECT * FRO... book_info" />
               </folding>
             </state>
           </provider>
@@ -173,7 +175,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,47 +184,11 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduation_Project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Graduation_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Graduation_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-              <item name="zhouzhiliwen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Graduation_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-              <item name="zhouzhiliwen" type="462c0819:PsiDirectoryNode" />
-              <item name="Documents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Graduation_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-              <item name="zhouzhiliwen" type="462c0819:PsiDirectoryNode" />
-              <item name="Documents" type="462c0819:PsiDirectoryNode" />
-              <item name="softwares" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Graduation_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-              <item name="zhouzhiliwen" type="462c0819:PsiDirectoryNode" />
-              <item name="Documents" type="462c0819:PsiDirectoryNode" />
-              <item name="softwares" type="462c0819:PsiDirectoryNode" />
-              <item name="maven" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,7 +326,8 @@
       <workItem from="1525853502185" duration="2470000" />
       <workItem from="1525870389155" duration="8000" />
       <workItem from="1525870429617" duration="6111000" />
-      <workItem from="1525883927748" duration="758000" />
+      <workItem from="1525883927748" duration="1816000" />
+      <workItem from="1525886416768" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary="修改 jsp 页面 22：30">
       <created>1525876629853</created>
@@ -372,10 +340,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9347000" />
+    <option name="totallyTimeSpent" value="10874000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="814" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="814" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -385,13 +353,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -449,11 +417,86 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="131" column="25" lean-forward="false" selection-start-line="118" selection-start-column="20" selection-end-line="131" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_book_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/web/BookAddCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="80" lean-forward="false" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/domain/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+          <folding>
+            <element signature="e#1821#1827#0" expanded="true" />
+            <element signature="e#1900#3025#0" expanded="true" />
+            <element signature="e#3024#3025#0" expanded="true" />
+            <element signature="e#3151#3157#0" expanded="true" />
+            <element signature="e#3210#4334#0" expanded="true" />
+            <element signature="e#4333#4334#0" expanded="true" />
+            <element signature="e#5292#6186#0" expanded="true" />
+            <element signature="e#6185#6186#0" expanded="true" />
+            <marker date="1525886799916" expanded="true" signature="661:718" ph="INSERT INTO book_info... " />
+            <marker date="1525886799916" expanded="true" signature="772:811" ph="delete from book_info... " />
+            <marker date="1525886799916" expanded="true" signature="865:1032" ph="update book_info... " />
+            <marker date="1525886799916" expanded="true" signature="1092:1115" ph="SELECT * FRO... book_info" />
+            <marker date="1525886799916" expanded="true" signature="1169:1229" ph="SELECT * FRO... book_info" />
+            <marker date="1525886799916" expanded="true" signature="1301:1367" ph="SELECT count... book_info" />
+            <marker date="1525886799916" expanded="true" signature="1301:1368" ph="SELECT count... book_info" />
+            <marker date="1525886799916" expanded="true" signature="1436:1477" ph="SELECT * FRO... book_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1695">
           <caret line="113" column="22" lean-forward="false" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -461,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
           <caret line="135" column="35" lean-forward="false" selection-start-line="130" selection-start-column="28" selection-end-line="135" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -469,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="85" column="41" lean-forward="false" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -477,7 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="61" column="58" lean-forward="false" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -485,7 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="25" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="43" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="25" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="43" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,9 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
           <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding>
-            <marker date="1525872316795" expanded="false" signature="2964:2991" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="152" column="27" lean-forward="true" selection-start-line="147" selection-start-column="20" selection-end-line="152" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -575,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-164">
           <caret line="70" column="25" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="70" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="112" column="43" lean-forward="false" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="113" column="43" lean-forward="false" selection-start-line="113" selection-start-column="43" selection-end-line="113" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="102" column="25" lean-forward="false" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-676">
           <caret line="60" column="25" lean-forward="true" selection-start-line="52" selection-start-column="15" selection-end-line="60" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="218" column="64" lean-forward="true" selection-start-line="218" selection-start-column="16" selection-end-line="218" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="105" column="43" lean-forward="false" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1695">
           <caret line="113" column="22" lean-forward="false" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
           <caret line="135" column="35" lean-forward="false" selection-start-line="130" selection-start-column="28" selection-end-line="135" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="85" column="41" lean-forward="false" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="61" column="58" lean-forward="false" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="25" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="43" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="25" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="43" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,7 +718,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_detail.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="1965">
           <caret line="131" column="25" lean-forward="false" selection-start-line="118" selection-start-column="20" selection-end-line="131" selection-end-column="25" />
           <folding />
         </state>
@@ -710,7 +726,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_book_detail.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="1590">
           <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding />
         </state>
@@ -724,33 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/dao/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding>
-            <marker date="1525884484278" expanded="true" signature="659:716" ph="INSERT INTO book_info... " />
-            <marker date="1525884484278" expanded="true" signature="768:807" ph="delete from book_info... " />
-            <marker date="1525884484278" expanded="true" signature="859:1026" ph="update book_info... " />
-            <marker date="1525884484278" expanded="true" signature="1084:1107" ph="SELECT * FRO... book_info" />
-            <marker date="1525884484278" expanded="true" signature="1159:1213" ph="SELECT * FRO... book_info" />
-            <marker date="1525884484278" expanded="true" signature="1283:1350" ph="SELECT count... book_info" />
-            <marker date="1525884484278" expanded="true" signature="1416:1457" ph="SELECT * FRO... book_info" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/book/web/BookAddCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -761,9 +750,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="24" column="80" lean-forward="false" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="80" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.2.2.RELEASE/spring-jdbc-4.2.2.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="510" column="5" lean-forward="true" selection-start-line="510" selection-start-column="5" selection-end-line="510" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+          <folding>
+            <element signature="e#1821#1827#0" expanded="true" />
+            <element signature="e#1900#3025#0" expanded="true" />
+            <element signature="e#3024#3025#0" expanded="true" />
+            <element signature="e#3151#3157#0" expanded="true" />
+            <element signature="e#3210#4334#0" expanded="true" />
+            <element signature="e#4333#4334#0" expanded="true" />
+            <element signature="e#5292#6186#0" expanded="true" />
+            <element signature="e#6185#6186#0" expanded="true" />
+            <marker date="1525886799916" expanded="true" signature="661:718" ph="INSERT INTO book_info... " />
+            <marker date="1525886799916" expanded="true" signature="772:811" ph="delete from book_info... " />
+            <marker date="1525886799916" expanded="true" signature="865:1032" ph="update book_info... " />
+            <marker date="1525886799916" expanded="true" signature="1092:1115" ph="SELECT * FRO... book_info" />
+            <marker date="1525886799916" expanded="true" signature="1169:1229" ph="SELECT * FRO... book_info" />
+            <marker date="1525886799916" expanded="true" signature="1301:1367" ph="SELECT count... book_info" />
+            <marker date="1525886799916" expanded="true" signature="1301:1368" ph="SELECT count... book_info" />
+            <marker date="1525886799916" expanded="true" signature="1436:1477" ph="SELECT * FRO... book_info" />
+          </folding>
         </state>
       </provider>
     </entry>
