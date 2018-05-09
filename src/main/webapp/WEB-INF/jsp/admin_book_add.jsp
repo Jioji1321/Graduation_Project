@@ -103,7 +103,7 @@
                     <input type="text" class="form-control"  name="price"  id="price" placeholder="请输入人均价格">
                 </div>
                 <div class="form-group">
-                    <label for="pubdate">上线日期</label>
+                    <label for="pubdate">上架日期</label>
                     <input type="text" class="form-control"  name="pubdate" id="pubdate"   placeholder="请输入出版日期">
                 </div>
                 <div class="form-group">
