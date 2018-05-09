@@ -29,38 +29,38 @@
             <ul class="nav navbar-nav navbar-left">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        图书管理
+                        旅游项目管理
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="allbooks.html">全部图书</a></li>
+                        <li><a href="allbooks.html">所有旅游项目</a></li>
                         <li class="divider"></li>
-                        <li><a href="book_add.html">增加图书</a></li>
+                        <li><a href="book_add.html">添加旅游项目</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        读者管理
+                        用户管理
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="allreaders.html">全部读者</a></li>
+                        <li><a href="allreaders.html">查看所有用户</a></li>
                         <li class="divider"></li>
-                        <li><a href="reader_add.html">增加读者</a></li>
+                        <li><a href="reader_add.html">添加用户</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        借还管理
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="lendlist.html">借还日志</a></li>
-                    </ul>
-                </li>
+                <%--<li class="dropdown">--%>
+                    <%--<a href="#" class="dropdown-toggle" data-toggle="dropdown">--%>
+                        <%--借还管理--%>
+                        <%--<b class="caret"></b>--%>
+                    <%--</a>--%>
+                    <%--<ul class="dropdown-menu">--%>
+                        <%--<li><a href="lendlist.html">借还日志</a></li>--%>
+                    <%--</ul>--%>
+                <%--</li>--%>
                 <li >
                     <a href="admin_repasswd.html" >
-                        密码修改
+                        登录密码修改
                     </a>
                 </li>
             </ul>
@@ -75,24 +75,24 @@
 <div style="position: relative;top: 10%;width: 80%;margin-left: 10%">
             <form action="book_add_do.html" method="post" id="addbook" >
                 <div class="form-group">
-                    <label for="name">图书名</label>
-                    <input type="text" class="form-control" name="name" id="name" placeholder="请输入书名">
+                    <label for="name">关键字</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="请输入关键字">
                 </div>
                 <div class="form-group">
-                    <label for="author">作者</label>
-                    <input type="text" class="form-control" name="author" id="author"  placeholder="请输入作者名">
+                    <label for="author">旅游项目名</label>
+                    <input type="text" class="form-control" name="author" id="author"  placeholder="请输入旅游项目名">
                 </div>
                 <div class="form-group">
-                    <label for="publish">出版社</label>
-                    <input type="text" class="form-control"  name="publish" id="publish"  placeholder="请输入出版社">
+                    <label for="publish">链接</label>
+                    <input type="text" class="form-control"  name="publish" id="publish"  placeholder="请输入链接">
                 </div>
                 <div class="form-group">
                     <label for="isbn">ISBN</label>
                     <input type="text" class="form-control" name="isbn" id="isbn"  placeholder="请输入ISBN">
                 </div>
                 <div class="form-group">
-                    <label for="introduction">简介</label>
-                    <textarea class="form-control" rows="3"  name="introduction" id="introduction" placeholder="请输入简介"></textarea>
+                    <label for="introduction">项目简介</label>
+                    <textarea class="form-control" rows="3"  name="introduction" id="introduction" placeholder="请输入项目简介"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="language">语言</label>
