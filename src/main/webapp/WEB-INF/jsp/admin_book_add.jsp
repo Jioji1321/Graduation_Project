@@ -87,37 +87,37 @@
                     <input type="text" class="form-control"  name="publish" id="publish"  placeholder="请输入链接">
                 </div>
                 <div class="form-group">
-                    <label for="isbn">ISBN</label>
-                    <input type="text" class="form-control" name="isbn" id="isbn"  placeholder="请输入ISBN">
+                    <label for="isbn">省份</label>
+                    <input type="text" class="form-control" name="isbn" id="isbn"  placeholder="请输入省份">
+                </div>
+                <div class="form-group">
+                    <label for="language">所在城市</label>
+                    <input type="text" class="form-control" name="language" id="language"  placeholder="请输入所在城市">
                 </div>
                 <div class="form-group">
                     <label for="introduction">项目简介</label>
                     <textarea class="form-control" rows="3"  name="introduction" id="introduction" placeholder="请输入项目简介"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="language">语言</label>
-                    <input type="text" class="form-control" name="language" id="language"  placeholder="请输入语言">
+                    <label for="price">人均价格</label>
+                    <input type="text" class="form-control"  name="price"  id="price" placeholder="请输入人均价格">
                 </div>
                 <div class="form-group">
-                    <label for="price">价格</label>
-                    <input type="text" class="form-control"  name="price"  id="price" placeholder="请输入价格">
-                </div>
-                <div class="form-group">
-                    <label for="pubdate">出版日期</label>
+                    <label for="pubdate">上线日期</label>
                     <input type="text" class="form-control"  name="pubdate" id="pubdate"   placeholder="请输入出版日期">
                 </div>
                 <div class="form-group">
-                    <label for="classId">分类号</label>
-                    <input type="text" class="form-control" name="classId" id="classId"  placeholder="请输入分类号">
+                    <label for="classId">分类</label>
+                    <input type="text" class="form-control" name="classId" id="classId"  placeholder="请输入分类">
                 </div>
-                <div class="form-group">
-                    <label for="pressmark">书架号</label>
-                    <input type="text" class="form-control"  name="pressmark" id="pressmark" placeholder="请输入书架号">
-                </div>
-                <div class="form-group">
-                    <label for="state">状态</label>
-                    <input type="text" class="form-control"  name="state"  id="state"   placeholder="请输入图书状态">
-                </div>
+                <%--<div class="form-group">--%>
+                    <%--<label for="pressmark">书架号</label>--%>
+                    <%--<input type="text" class="form-control"  name="pressmark" id="pressmark" placeholder="请输入书架号">--%>
+                <%--</div>--%>
+                <%--<div class="form-group">--%>
+                    <%--<label for="state">状态</label>--%>
+                    <%--<input type="text" class="form-control"  name="state"  id="state"   placeholder="请输入图书状态">--%>
+                <%--</div>--%>
 
 
                 <input type="submit" value="添加" class="btn btn-success btn-sm" class="text-left">
@@ -126,8 +126,8 @@
                         return flag;
                     }
                     $("#addbook").submit(function () {
-                        if($("#name").val()==''||$("#author").val()==''||$("#publish").val()==''||$("#isbn").val()==''||$("#introduction").val()==''||$("#language").val()==''||$("#price").val()==''||$("#pubdate").val()==''||$("#classId").val()==''||$("#pressmark").val()==''||$("#state").val()==''){
-                            alert("请填入完整图书信息！");
+                        if($("#name").val()==''||$("#author").val()==''||$("#publish").val()==''||$("#isbn").val()==''||$("#introduction").val()==''||$("#language").val()==''||$("#price").val()==''||$("#pubdate").val()==''||$("#classId").val()==''){
+                            alert("请填入完整的项目信息！");
                             return mySubmit(false);
                         }
                     })
