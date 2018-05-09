@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>编辑读者信息《 ${readerInfo.readerId}》</title>
+    <title>编辑用户信息《 ${readerInfo.readerId}》</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.min.js" ></script>
@@ -23,41 +23,41 @@
 <nav  style="position:fixed;z-index: 999;width: 100%;background-color: #fff" class="navbar navbar-default" role="navigation" >
     <div class="container-fluid">
         <div class="navbar-header" style="margin-left: 8%;margin-right: 1%">
-            <a class="navbar-brand" href="admin_main.html">图书管理系统</a>
+            <a class="navbar-brand" href="admin_main.html">热点城市旅游服务系统</a>
         </div>
         <div class="collapse navbar-collapse" >
             <ul class="nav navbar-nav navbar-left">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        图书管理
+                        旅游项目管理
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="allbooks.html">全部图书</a></li>
+                        <li><a href="allbooks.html">所有旅游项目</a></li>
                         <li class="divider"></li>
-                        <li><a href="book_add.html">增加图书</a></li>
+                        <li><a href="book_add.html">新增旅游项目</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        读者管理
+                        用户管理
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="allreaders.html">全部读者</a></li>
+                        <li><a href="allreaders.html">全部用户</a></li>
                         <li class="divider"></li>
-                        <li><a href="reader_add.html">增加读者</a></li>
+                        <li><a href="reader_add.html">新增用户</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        借还管理
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="lendlist.html">借还日志</a></li>
-                    </ul>
-                </li>
+                <%--<li class="dropdown">--%>
+                    <%--<a href="#" class="dropdown-toggle" data-toggle="dropdown">--%>
+                        <%--借还管理--%>
+                        <%--<b class="caret"></b>--%>
+                    <%--</a>--%>
+                    <%--<ul class="dropdown-menu">--%>
+                        <%--<li><a href="lendlist.html">借还日志</a></li>--%>
+                    <%--</ul>--%>
+                <%--</li>--%>
                 <li >
                     <a href="admin_repasswd.html" >
                         密码修改
@@ -110,8 +110,8 @@
                         return flag;
                     }
                     $("#readeredit").submit(function () {
-                        if($("#name").val()==''||$("#author").val()==''||$("#publish").val()==''||$("#isbn").val()==''||$("#introduction").val()==''||$("#language").val()==''||$("#price").val()==''||$("#pubdate").val()==''||$("#classId").val()==''||$("#pressmark").val()==''||$("#state").val()==''){
-                            alert("请填入完整读者信息！");
+                        if($("#readerId").val()==''||$("#name").val()==''||$("#sex").val()==''||$("#birth").val()==''||$("#address").val()==''||$("#telcode").val()==''){
+                            alert("请填入完整的用户信息！");
                             return mySubmit(false);
                         }
                     })

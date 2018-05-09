@@ -9,7 +9,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>图书馆首页</title>
+    <title>系统首页</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.min.js" ></script>
@@ -52,7 +52,7 @@
             window.location.href="login.html";
 </script>
 </c:if>
-<h2 style="text-align: center;font-family: 'Adobe 楷体 Std R';color: palevioletred">图 书 馆</h2>
+<h2 style="text-align: center;font-family: 'Adobe 楷体 Std R';color: palevioletred">热 点 城 市 旅 游 服 务 系 统</h2>
 <div style="float:right;" id="github_iframe"></div>
 <script>
     /**
@@ -206,7 +206,7 @@
     <div class="panel-body">
         <div class="form-group">
             <label for="id">用户名</label>
-            <input type="text" class="form-control" id="id" placeholder="请输入用户名">
+            <input type="text" class="form-control" id="id" placeholder="请输入登录用户名">
         </div>
         <div class="form-group">
             <label for="passwd">密码</label>
@@ -216,7 +216,7 @@
             <label>
                 <input type="checkbox" id="remember">记住密码
             </label>
-            <a style="margin-left: 100px" href="#">忘记密码?</a>
+            <%--<a style="margin-left: 100px" href="#">忘记密码?</a>--%>
         </div>
 
         <p style="text-align: right;color: red;position: absolute" id="info"></p><br/>
