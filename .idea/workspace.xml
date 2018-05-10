@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6b6e86-09b8-4472-8f81-cce1ac98a556" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_detail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_detail.jsp" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/library.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/dao/AdminDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/dao/BookDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/dao/LendDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/dao/ReaderCardDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/dao/ReaderInfoDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/domain/Admin.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/domain/Book.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/domain/Lend.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/domain/ReaderCard.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/domain/ReaderInfo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/service/BookService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/service/LendService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/service/LoginService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/service/ReaderCardService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/service/ReaderInfoService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/web/BookAddCommand.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/web/BookController.java" afterPath="$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/web/LendController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/web/LoginController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/web/ReaderController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/web/WebConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/book-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/book-context.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/book-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/book-servlet.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_add.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_add.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_books.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_books.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_lend_list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_lend_list.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_book_query.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_book_query.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_lend_list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_lend_list.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,73 +43,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="book-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/book-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="88" column="52" lean-forward="false" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_book_detail.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_detail.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="107" column="24" lean-forward="true" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin_book_add.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="admin_book_add.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="111" column="22" lean-forward="false" selection-start-line="104" selection-start-column="16" selection-end-line="111" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/book/service/BookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-              <folding>
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/book/dao/BookDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-              <folding>
-                <marker date="1525916939492" expanded="true" signature="663:720" ph="INSERT INTO book_info... " />
-                <marker date="1525916939492" expanded="true" signature="771:824" ph="INSERT INTO book_info... " />
-                <marker date="1525916939492" expanded="true" signature="878:917" ph="delete from book_info... " />
-                <marker date="1525916939492" expanded="true" signature="971:1138" ph="update book_info... " />
-                <marker date="1525916939492" expanded="true" signature="1198:1221" ph="SELECT * FRO... book_info" />
-                <marker date="1525916939492" expanded="true" signature="1275:1335" ph="SELECT * FRO... book_info" />
-                <marker date="1525916939492" expanded="true" signature="1407:1474" ph="SELECT count... book_info" />
-                <marker date="1525916939492" expanded="true" signature="1542:1583" ph="SELECT * FRO... book_info" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/book/domain/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="356">
+              <caret line="108" column="53" lean-forward="true" selection-start-line="108" selection-start-column="53" selection-end-line="108" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -100,11 +87,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/book/domain/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/book-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/book/dao/BookDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_add.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/book/web/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_detail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/book-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_add.jsp" />
       </list>
     </option>
   </component>
@@ -169,16 +157,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Graduation_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="tour" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
@@ -391,12 +370,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525914053547</updated>
-      <workItem from="1525914059119" duration="3707000" />
+      <workItem from="1525914059119" duration="4814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3707000" />
+    <option name="totallyTimeSpent" value="4814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,68 +430,62 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/book/dao/BookDao.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tour/dao/BookDao.java</url>
           <line>102</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java</url>
-          <line>91</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java</url>
-          <line>118</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java</url>
+          <line>116</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java</url>
-          <line>127</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java</url>
+          <line>125</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java</url>
-          <line>156</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java</url>
+          <line>154</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java</url>
-          <line>166</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java</url>
+          <line>164</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java</url>
-          <line>82</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java</url>
+          <line>81</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java</url>
-          <line>67</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java</url>
+          <line>66</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java</url>
-          <line>59</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java</url>
+          <line>58</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java</url>
-          <line>45</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java</url>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java</url>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -573,7 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/domain/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tour/domain/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -581,62 +554,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/service/BookService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tour/service/BookService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tour/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <marker date="1525918127191" expanded="true" signature="663:720" ph="INSERT INTO book_info... " />
+            <marker date="1525918127191" expanded="true" signature="771:824" ph="INSERT INTO book_info... " />
+            <marker date="1525918127191" expanded="true" signature="878:917" ph="delete from book_info... " />
+            <marker date="1525918127191" expanded="true" signature="971:1138" ph="update book_info... " />
+            <marker date="1525918127191" expanded="true" signature="1198:1221" ph="SELECT * FRO... book_info" />
+            <marker date="1525918127191" expanded="true" signature="1275:1335" ph="SELECT * FRO... book_info" />
+            <marker date="1525918127191" expanded="true" signature="1407:1474" ph="SELECT count... book_info" />
+            <marker date="1525918127191" expanded="true" signature="1542:1583" ph="SELECT * FRO... book_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="103" column="33" lean-forward="true" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_lend.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_books.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_reader_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_reader_edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_readers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_repasswd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_book_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_book_query.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_info_edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_lend_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reader_repasswd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tour/web/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="88" column="52" lean-forward="false" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/book-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="96" lean-forward="false" selection-start-line="17" selection-start-column="96" selection-end-line="17" selection-end-column="96" />
+        <state relative-caret-position="184">
+          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="111" column="22" lean-forward="false" selection-start-line="104" selection-start-column="16" selection-end-line="111" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/dao/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding>
-            <marker date="1525916939492" expanded="true" signature="663:720" ph="INSERT INTO book_info... " />
-            <marker date="1525916939492" expanded="true" signature="771:824" ph="INSERT INTO book_info... " />
-            <marker date="1525916939492" expanded="true" signature="878:917" ph="delete from book_info... " />
-            <marker date="1525916939492" expanded="true" signature="971:1138" ph="update book_info... " />
-            <marker date="1525916939492" expanded="true" signature="1198:1221" ph="SELECT * FRO... book_info" />
-            <marker date="1525916939492" expanded="true" signature="1275:1335" ph="SELECT * FRO... book_info" />
-            <marker date="1525916939492" expanded="true" signature="1407:1474" ph="SELECT count... book_info" />
-            <marker date="1525916939492" expanded="true" signature="1542:1583" ph="SELECT * FRO... book_info" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/book/web/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_book_detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="107" column="24" lean-forward="true" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+        <state relative-caret-position="356">
+          <caret line="108" column="53" lean-forward="true" selection-start-line="108" selection-start-column="53" selection-end-line="108" selection-end-column="53" />
           <folding />
         </state>
       </provider>
