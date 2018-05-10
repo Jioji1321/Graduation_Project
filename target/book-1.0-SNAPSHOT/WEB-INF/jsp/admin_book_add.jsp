@@ -90,14 +90,17 @@
                     <label for="isbn">省份</label>
                     <input type="text" class="form-control" name="isbn" id="isbn"  placeholder="请输入省份">
                 </div>
+
                 <div class="form-group">
-                    <label for="introduction">所在城市</label>
-                    <input type="text" class="form-control" name="language" id="language"  placeholder="请输入所在城市">
+                    <label for="language">所在城市</label>
+                    <input type="text" class="form-control" name="introduction" id="introduction" placeholder="请输入所在城市"></textarea>
                 </div>
+
                 <div class="form-group">
-                    <label for="language">项目简介</label>
-                    <textarea class="form-control" rows="3"  name="introduction" id="introduction" placeholder="请输入项目简介"></textarea>
+                    <label for="introduction">项目简介</label>
+                    <textarea class="form-control" rows="3"  name="language" id="language"  placeholder="请输入所在城市">
                 </div>
+
                 <div class="form-group">
                     <label for="price">人均价格</label>
                     <input type="text" class="form-control"  name="price"  id="price" placeholder="请输入人均价格">
