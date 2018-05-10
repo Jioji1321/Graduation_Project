@@ -101,10 +101,10 @@ public class ReaderController {
             readerInfo.setSex(sex);
             boolean succ=readerInfoService.editReaderInfo(readerInfo);
             if(succo&&succ){
-                redirectAttributes.addFlashAttribute("succ", "读者信息修改成功！");
+                redirectAttributes.addFlashAttribute("succ", "用户信息修改成功！");
                 return "redirect:/allreaders.html";
             }else {
-                redirectAttributes.addFlashAttribute("error", "读者信息修改失败！");
+                redirectAttributes.addFlashAttribute("error", "用户信息修改失败！");
                 return "redirect:/allreaders.html";
             }
         }
@@ -128,10 +128,10 @@ public class ReaderController {
 
             boolean succ=readerInfoService.editReaderInfo(readerInfo);
             if(succ){
-                redirectAttributes.addFlashAttribute("succ", "读者信息修改成功！");
+                redirectAttributes.addFlashAttribute("succ", "用户信息修改成功！");
                 return "redirect:/allreaders.html";
             }else {
-                redirectAttributes.addFlashAttribute("error", "读者信息修改失败！");
+                redirectAttributes.addFlashAttribute("error", "用户信息修改失败！");
                 return "redirect:/allreaders.html";
             }
         }
@@ -208,10 +208,10 @@ public class ReaderController {
         boolean succc=readerCardService.addReaderCard(readerInfo);
         ArrayList<ReaderInfo> readers=readerInfoService.readerInfos();
         if (succ&&succc){
-            redirectAttributes.addFlashAttribute("succ", "添加读者信息成功！");
+            redirectAttributes.addFlashAttribute("succ", "添加用户信息成功！");
             return "redirect:/allreaders.html";
         }else {
-            redirectAttributes.addFlashAttribute("succ", "添加读者信息失败！");
+            redirectAttributes.addFlashAttribute("succ", "添加用户信息失败！");
             return "redirect:/allreaders.html";
         }
     }

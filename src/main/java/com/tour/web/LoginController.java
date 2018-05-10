@@ -63,7 +63,7 @@ public class LoginController {
                     ReaderCard readerCard = loginService.findReaderCardByUserId(id);
                     request.getSession().setAttribute("readercard", readerCard);
                     res.put("stateCode", "2");
-                    res.put("msg","读者登陆成功！");
+                    res.put("msg","普通用户登陆成功！");
                 }
         return res;
     };
