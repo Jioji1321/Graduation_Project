@@ -1,4 +1,4 @@
-package com.book.dao;
+package com.tour.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

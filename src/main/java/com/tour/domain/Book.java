@@ -1,13 +1,12 @@
-package com.book.web;
+package com.tour.domain;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class BookAddCommand {
+public class Book implements Serializable {
 
-
+    private long bookId;
     private String name;
     private String author;
     private String publish;
@@ -40,18 +39,12 @@ public class BookAddCommand {
         this.isbn = isbn;
     }
 
+    public void setBookId(long bookId) {
+        this.bookId = bookId;
+    }
 
-
-    public void setPubdate(String pubdate) {
-        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
-
-        try{
-            java.util.Date date=sdf.parse(pubdate);
-            this.pubdate=date;
-        }catch (ParseException e){
-            e.printStackTrace();
-        }
-
+    public void setPubdate(Date pubdate) {
+        this.pubdate = pubdate;
     }
 
     public void setPublish(String publish) {
@@ -82,6 +75,9 @@ public class BookAddCommand {
         return price;
     }
 
+    public long getBookId() {
+        return bookId;
+    }
 
     public int getClassId() {
         return classId;
@@ -119,6 +115,8 @@ public class BookAddCommand {
         return publish;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "这本书的信息为" + pressmark + pubdate + bookId + name + author + publish + isbn + introduction + language + price + classId + state;
+    }
 }

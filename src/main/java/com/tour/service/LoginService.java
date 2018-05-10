@@ -1,10 +1,10 @@
-package com.book.service;
+package com.tour.service;
 
-import com.book.dao.AdminDao;
-import com.book.dao.ReaderCardDao;
-import com.book.dao.ReaderInfoDao;
-import com.book.domain.ReaderCard;
-import com.book.domain.ReaderInfo;
+import com.tour.dao.AdminDao;
+import com.tour.dao.ReaderCardDao;
+import com.tour.dao.ReaderInfoDao;
+import com.tour.domain.ReaderCard;
+import com.tour.domain.ReaderInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

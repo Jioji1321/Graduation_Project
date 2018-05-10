@@ -1,10 +1,10 @@
-package com.book.web;
+package com.tour.web;
 
-import com.book.domain.ReaderCard;
-import com.book.domain.ReaderInfo;
-import com.book.service.LoginService;
-import com.book.service.ReaderCardService;
-import com.book.service.ReaderInfoService;
+import com.tour.domain.ReaderCard;
+import com.tour.domain.ReaderInfo;
+import com.tour.service.LoginService;
+import com.tour.service.ReaderCardService;
+import com.tour.service.ReaderInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,7 +12,6 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

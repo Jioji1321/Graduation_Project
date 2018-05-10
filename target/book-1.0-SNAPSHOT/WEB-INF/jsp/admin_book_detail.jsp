@@ -93,7 +93,7 @@
                     <td>${detail.publish}</td>
                 </tr>
                 <tr>
-                    <th>省份/th>
+                    <th>省份</th>
                     <td>${detail.isbn}</td>
                 </tr>
                 <tr>

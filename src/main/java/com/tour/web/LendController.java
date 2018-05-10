@@ -1,9 +1,9 @@
-package com.book.web;
+package com.tour.web;
 
-import com.book.domain.Book;
-import com.book.domain.ReaderCard;
-import com.book.service.BookService;
-import com.book.service.LendService;
+import com.tour.domain.Book;
+import com.tour.domain.ReaderCard;
+import com.tour.service.BookService;
+import com.tour.service.LendService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

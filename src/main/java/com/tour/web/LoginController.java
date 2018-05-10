@@ -1,12 +1,10 @@
-package com.book.web;
+package com.tour.web;
 
-import com.book.domain.Admin;
-import com.book.domain.ReaderCard;
-import com.book.domain.ReaderInfo;
-import com.book.service.LoginService;
+import com.tour.domain.Admin;
+import com.tour.domain.ReaderCard;
+import com.tour.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;

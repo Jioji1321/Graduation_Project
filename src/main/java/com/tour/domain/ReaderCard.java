@@ -1,4 +1,4 @@
-package com.book.domain;
+package com.tour.domain;
 
 import java.io.Serializable;
 

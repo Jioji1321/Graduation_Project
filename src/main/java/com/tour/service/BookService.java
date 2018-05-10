@@ -1,7 +1,7 @@
-package com.book.service;
+package com.tour.service;
 
-import com.book.dao.BookDao;
-import com.book.domain.Book;
+import com.tour.dao.BookDao;
+import com.tour.domain.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

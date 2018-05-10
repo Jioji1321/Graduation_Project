@@ -1,4 +1,4 @@
-package com.book.web;
+package com.tour.web;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.book.web")
+@ComponentScan("com.tour.web")
 public class WebConfig extends WebMvcConfigurerAdapter {
 
 

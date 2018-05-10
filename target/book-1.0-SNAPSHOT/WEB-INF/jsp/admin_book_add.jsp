@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>图书信息添加</title>
+    <title>旅游项目信息添加</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.min.js" ></script>
@@ -91,11 +91,11 @@
                     <input type="text" class="form-control" name="isbn" id="isbn"  placeholder="请输入省份">
                 </div>
                 <div class="form-group">
-                    <label for="language">所在城市</label>
+                    <label for="introduction">所在城市</label>
                     <input type="text" class="form-control" name="language" id="language"  placeholder="请输入所在城市">
                 </div>
                 <div class="form-group">
-                    <label for="introduction">项目简介</label>
+                    <label for="language">项目简介</label>
                     <textarea class="form-control" rows="3"  name="introduction" id="introduction" placeholder="请输入项目简介"></textarea>
                 </div>
                 <div class="form-group">
