@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class Book implements Serializable{
+public class Book implements Serializable {
 
     private long bookId;
     private String name;
@@ -117,6 +117,6 @@ public class Book implements Serializable{
 
     @Override
     public String toString() {
-        return "这本书的信息为"+pressmark+pubdate+bookId+name+author+publish+isbn+introduction+language+price+classId+state;
+        return "这本书的信息为" + pressmark + pubdate + bookId + name + author + publish + isbn + introduction + language + price + classId + state;
     }
 }

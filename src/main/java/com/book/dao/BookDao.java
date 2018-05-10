@@ -22,7 +22,8 @@ public class BookDao {
         this.jdbcTemplate = jdbcTemplate;
     }
 
-    private final static String ADD_BOOK_SQL = "INSERT INTO book_info VALUES(NULL ,?,?,?,?,?,?,?,?,?,?,?)";
+//    private final static String ADD_BOOK_SQL = "INSERT INTO book_info VALUES(NULL ,?,?,?,?,?,?,?,?,?,?,?)";
+    private final static String ADD_BOOK_SQL = "INSERT INTO book_info VALUES(?,?,?,?,?,?,?,?,?,?,?,?)";
     private final static String DELETE_BOOK_SQL = "delete from book_info where book_id = ?  ";
     private final static String EDIT_BOOK_SQL = "update book_info set name= ? ,author= ? ,publish= ? ,ISBN= ? ,introduction= ? ,language= ? ,price= ? ,pubdate= ? ,class_id= ? ,pressmark= ? ,state= ?  where book_id= ? ;";
     private final static String QUERY_ALL_BOOKS_SQL = "SELECT * FROM book_info ";
@@ -110,8 +111,9 @@ public class BookDao {
         int classId = book.getClassId();
         int pressmark = book.getPressmark();
         int state = book.getState();
+        long id = book.getBookId();
 
-        return jdbcTemplate.update(ADD_BOOK_SQL, new Object[]{name, author, publish, isbn, introduction, language, price, pubdate, classId, pressmark, state});
+        return jdbcTemplate.update(ADD_BOOK_SQL, new Object[]{id ,name, author, publish, isbn, introduction, language, price, pubdate, classId, pressmark, state});
     }
 
     public Book getBook(Long bookId) {
