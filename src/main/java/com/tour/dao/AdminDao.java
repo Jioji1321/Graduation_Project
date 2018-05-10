@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class AdminDao {
 
-    private JdbcTemplate jdbcTemplate;
+    private JdbcTemplate   jdbcTemplate;
 
     @Autowired
     public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
