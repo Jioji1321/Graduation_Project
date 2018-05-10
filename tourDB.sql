@@ -5,13 +5,13 @@
  Source Server Type    : MySQL
  Source Server Version : 50721
  Source Host           : localhost
- Source Database       : library
+ Source Database       : tourDB
 
  Target Server Type    : MySQL
  Target Server Version : 50721
  File Encoding         : utf-8
 
- Date: 05/10/2018 10:09:40 AM
+ Date: 05/10/2018 10:30:25 AM
 */
 
 SET NAMES utf8;
@@ -58,7 +58,7 @@ CREATE TABLE `book_info` (
 --  Records of `book_info`
 -- ----------------------------
 BEGIN;
-INSERT INTO `book_info` VALUES ('0', '西栅', '乌镇西栅', 'http://www.wuzhen.com.cn/', '浙江', '乌镇西栅', '桐乡', '120.00', '2018-05-10', '0', '0', '0'), ('35295989', '2', '2', '2', '2', '2', '2', '2.00', '2018-05-10', '0', '0', '0'), ('180510001', '东方明珠', '上海东方明珠', 'http://www.orientalpearltower.com/', '上海', '上海', '上海东方明珠', '210.00', '2018-05-10', '1', '0', '0'), ('180510002', '滴水湖', '上海临港滴水湖', 'http://you.ctrip.com/travels/shanghai2/2915287.html', '上海', '上海', '上海临港滴水湖', '0.00', '2018-05-10', '1', '0', '0'), ('180510003', '迪士尼', '上海迪士尼', 'https://www.shanghaidisneyresort.com/', '上海', '上海', '上海迪士尼', '380.00', '2018-05-10', '1', '0', '0');
+INSERT INTO `book_info` VALUES ('180510001', '东方明珠', '上海东方明珠', 'http://www.orientalpearltower.com/', '上海', '上海', '上海东方明珠', '210.00', '2018-05-10', '1', '0', '0'), ('180510002', '滴水湖', '上海临港滴水湖', 'http://you.ctrip.com/travels/shanghai2/2915287.html', '上海', '上海', '上海临港滴水湖', '0.00', '2018-05-10', '1', '0', '0'), ('180510003', '迪士尼', '上海迪士尼', 'https://www.shanghaidisneyresort.com/', '上海', '上海', '上海迪士尼', '380.00', '2018-05-10', '1', '0', '0'), ('180510004', '西栅', '乌镇西栅', 'http://www.wuzhen.com.cn/', '浙江', '桐乡', '桐乡乌镇西栅', '120.00', '2018-05-10', '0', '0', '0'), ('199479477', '礐石风景区', '汕头礐石风景区', 'http://you.ctrip.com/sight/shantou215/17812.html', '广东', '汕头', '汕头礐石风景区', '10.00', '2018-05-10', '0', '0', '0'), ('504103313', '顾村公园', '上海顾村公园', 'http://gcgy.baoshan.sh.cn/', '上海', '上海', '上海顾村公园', '45.00', '2018-05-10', '0', '0', '0');
 COMMIT;
 
 -- ----------------------------
