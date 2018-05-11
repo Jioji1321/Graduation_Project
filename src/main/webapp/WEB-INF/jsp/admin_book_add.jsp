@@ -98,7 +98,7 @@
 
                 <div class="form-group">
                     <label for="introduction">项目简介</label>
-                    <textarea class="form-control" rows="3"  name="language" id="language"  placeholder="请输入所在城市">
+                    <textarea class="form-control" rows="3"  name="language" id="language"  placeholder="请输入所在城市"></textarea>
                 </div>
 
                 <div class="form-group">

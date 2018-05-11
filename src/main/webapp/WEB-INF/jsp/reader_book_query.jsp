@@ -63,7 +63,7 @@
         <div class="input-group">
             <input type="text" placeholder="输入关键字" class="form-control" id="search" name="searchWord" class="form-control">
             <span class="input-group-btn">
-                            <input type="submit" value="搜索" class="btn btn-default">
+                <input type="submit" value="搜索" class="btn btn-default">
             </span>
         </div>
     </form>

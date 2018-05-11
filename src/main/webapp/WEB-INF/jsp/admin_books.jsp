@@ -77,7 +77,7 @@
 <div style="padding: 70px 550px 10px">
     <form   method="post" action="querybook.html" class="form-inline"  id="searchform">
         <div class="input-group">
-           <input type="text" placeholder="输入旅游项目关键字" class="form-control" id="search" name="searchWord" class="form-control">
+            <input type="text" placeholder="输入旅游项目关键字" class="form-control" id="search" name="searchWord" class="form-control">
             <span class="input-group-btn">
                 <input type="submit" value="搜索" class="btn btn-default">
             </span>
